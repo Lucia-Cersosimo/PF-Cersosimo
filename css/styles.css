@@ -1,0 +1,429 @@
+.carousel-index-fix {
+  background-color: #2b4864;
+}
+
+.presentacion-index-fix {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  color: #2b4864;
+  text-align: center;
+  font-size: 20px;
+}
+
+.orari-indirizzo-fix {
+  background-image: url(../img/trovacii.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.orari-index-fix {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  color: #ffffff;
+  justify-content: center;
+}
+
+.button-fix {
+  padding: 15px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #ffffff;
+  z-index: 1;
+  background: #ffffff;
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+}
+.button-fix:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #f5be29;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+}
+.button-fix:hover {
+  color: #e8e8e8;
+}
+.button-fix:hover::before {
+  width: 100%;
+}
+
+.button-link-fix {
+  color: #2b4864;
+  text-decoration: none;
+}
+
+.google-map-fix {
+  width: 600px;
+  height: 350px;
+}
+@media (max-width: 760px) {
+  .google-map-fix {
+    width: 400px;
+    height: 200px;
+  }
+}
+@media (max-width: 480px) {
+  .google-map-fix {
+    width: 250px;
+    height: 100px;
+    padding-left: 20px;
+  }
+}
+
+.chi-siamo-fix {
+  font-family: "Dosis", sans-serif;
+  text-align: left;
+  color: #f5be29;
+  font-size: 30px;
+}
+
+@media (max-width: 760px) {
+  .chi-siamo-fix {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .chi-siamo-fix {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+.chi-siamo-video-fix {
+  background-color: #f5be29;
+}
+
+.covid-fix {
+  font-family: "Dosis", sans-serif;
+  color: #000000;
+  text-align: justify;
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+@media (max-width: 760px) {
+  .covid-fix {
+    font-size: 15px;
+    text-align: left;
+  }
+}
+@media (max-width: 480px) {
+  .covid-fix {
+    font-size: 15px;
+    text-align: left;
+  }
+}
+@media (min-width: 1200px) {
+  .i-video-fix {
+    width: 34rem;
+  }
+}
+.case-fix {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+}
+
+.case-logo {
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: bolder;
+  color: #ffffff;
+  background-color: #2b4864;
+}
+
+.eventi-info {
+  background-color: #2b4864;
+  color: #ffffff;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.prenota-eventi-fix {
+  text-decoration: none;
+  color: #ffffff;
+  transition: ease-in;
+}
+.prenota-eventi-fix:hover {
+  color: #2b4864;
+  text-decoration: underline;
+}
+.prenota-eventi-fix:visited {
+  color: #2b4864;
+}
+
+.nome-eventi {
+  font-size: 20px;
+  color: #f5be29;
+  font-weight: bold;
+  font-family: "Source Sans 3", sans-serif;
+  text-align: center;
+}
+
+.data-eventi {
+  font-size: 1em;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Source Sans 3", sans-serif;
+  text-align: center;
+}
+
+.link-prenota {
+  text-decoration: none;
+  color: #ffffff;
+  transition: ease-in;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: bolder;
+}
+.link-prenota:hover {
+  color: #f5be29;
+  text-decoration: underline;
+}
+.link-prenota:visited {
+  color: #ffffff;
+}
+
+.card {
+  margin-top: 10px;
+}
+
+.bgprimary {
+  background-color: #2b4864;
+}
+
+@media (max-width: 480px) {
+  .card-group {
+    padding-left: 42px;
+  }
+}
+.gruppo-fix {
+  background-color: #f5be29;
+}
+
+.data-gruppo-fix {
+  text-align: left;
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.libro-desc-fix {
+  text-align: left;
+  font-family: "Dosis", sans-serif;
+  font-size: 30px;
+}
+
+.ima-gruppo-fix {
+  width: 75%;
+}
+
+.fb-gruppo {
+  text-decoration: none;
+  font-size: 34px;
+  color: #ffffff;
+  transition: ease-in;
+}
+.fb-gruppo:hover {
+  color: #2b4864;
+  text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+  .ima-gruppo-fix {
+    width: 75%;
+  }
+  .data-gruppo-fix {
+    text-align: center;
+    font-size: 28px;
+  }
+  .libro-desc-fix {
+    text-align: center;
+    font-size: 24px;
+  }
+  .fb-gruppo {
+    font-size: 28px;
+  }
+}
+@media (max-width: 480px) {
+  .ima-gruppo-fix {
+    width: 50%;
+  }
+  .data-gruppo-fix {
+    text-align: center;
+    font-size: 24px;
+  }
+  .libro-desc-fix {
+    text-align: center;
+    font-size: 20px;
+  }
+  .fb-gruppo {
+    font-size: 24px;
+  }
+}
+.funziona-gruppo-fix {
+  text-align: left;
+  font-family: "Source Sans 3", sans-serif;
+  color: #f5be29;
+  font-weight: bolder;
+}
+
+.regole-gruppo {
+  list-style: none;
+  font-size: 20px;
+  text-align: left;
+  color: #ffffff;
+  font-family: "Dosis", sans-serif;
+}
+
+.news-tit-fix {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.news-link-fix {
+  text-decoration: none;
+  color: #f5be29;
+}
+
+.data-cont {
+  background-color: #2b4864;
+}
+
+.contatti-fix {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-family: "Source Sans 3", sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.contatti-links {
+  text-decoration: none;
+  color: #ffffff;
+  transition: ease-in;
+}
+.contatti-links:hover {
+  color: #f5be29;
+}
+
+.map-conta-fix {
+  width: 100%;
+}
+
+@media (max-width: 760px) {
+  .conta-ima-fix {
+    width: 300px;
+  }
+  .contatti-fix {
+    font-size: 20px;
+  }
+  .map-conta-fix {
+    width: 350px;
+    height: 250px;
+  }
+}
+@media (max-width: 480px) {
+  .conta-ima-fix {
+    width: 200px;
+  }
+  .contatti-fix {
+    font-size: 16px;
+  }
+  .mapa-conta-fix {
+    width: 200px;
+    height: 100px;
+  }
+}
+.form-fix {
+  background-color: #f5be29;
+}
+
+label {
+  color: #2b4864;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+.footer-fix {
+  background-color: #2b4864;
+  margin-top: 15px;
+}
+
+.footer-items-fix {
+  color: #ffffff;
+  font-family: "Source Sans 3", sans-serif;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.header-nav-fix {
+  background-color: #2b4864;
+}
+
+.logo-escrito-fix {
+  width: 200px;
+}
+
+.nav-links-fix {
+  color: #ffffff;
+  font-family: "Source Sans 3", sans-serif;
+  transition: ease-in;
+}
+.nav-links-fix:hover {
+  color: #f5be29;
+  text-decoration: underline;
+}
+
+.socialnet {
+  margin-right: 5px;
+  width: 20px;
+  align-items: baseline;
+}
+
+.icon-social-fix {
+  color: #ffffff;
+}
+.icon-social-fix:hover {
+  color: #f5be29;
+}
+
+.logo-fix {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  color: #2b4864;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-weight: lighter;
+  color: #f5be29;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
